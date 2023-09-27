@@ -52,7 +52,7 @@ def save_diary():
         'time': today.strftime('%Y-%m-%d')
     }
     db.diary.insert_one(doc)
-    return jsonify({'message': 'done ga bang, done!!!!'})
+    return jsonify({'message': 'Yatta ̄ , dekiru yo!!!!'})
 
 
 
